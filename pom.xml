@@ -69,7 +69,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                 </executions> 
             <!-- <configuration>
              <transformationSets>                
-                        <transformationSet><dir>${jmeter.result.jtl.dir}</dir>                                                    
+                        <transformationSet>
+                        <dir>${jmeter.result.jtl.dir}</dir>                                                    
                             <stylesheet>src\test\resources\jmeter-results-detail-report_21.xsl</stylesheet>
                             <outputDir>${jmeter.result.html.dir}</outputDir>
                             <fileMappers>
