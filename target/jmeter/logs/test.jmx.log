@@ -1,275 +1,275 @@
-2019-01-08 10:00:14,802 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: Version 3.3 r1808647
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: java.version=1.8.0_171
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: os.name=Windows 10
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: os.arch=amd64
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: os.version=10.0
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: file.encoding=GBK
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: Max memory     =514850816
-2019-01-08 10:00:14,817 INFO o.a.j.JMeter: Available Processors =4
-2019-01-08 10:00:14,833 INFO o.a.j.JMeter: Default Locale=中文 (中国)
-2019-01-08 10:00:14,833 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
-2019-01-08 10:00:14,833 INFO o.a.j.JMeter: JMeterHome=C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter
-2019-01-08 10:00:14,833 INFO o.a.j.JMeter: user.dir  =C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin
-2019-01-08 10:00:14,833 INFO o.a.j.JMeter: PWD       =C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin
-2019-01-08 10:00:19,356 INFO o.a.j.JMeter: IP: 192.168.205.2 Name: DESKTOP-M58SEUS FullName: DESKTOP-M58SEUS
-2019-01-08 10:00:19,356 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190108_100014'
-2019-01-08 10:00:19,356 INFO o.a.j.s.FileServer: Default base='C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin'
-2019-01-08 10:00:19,356 INFO o.a.j.s.FileServer: Set new base='C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\testFiles'
-2019-01-08 10:00:19,465 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2019-01-08 10:00:19,465 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2019-01-08 10:00:19,465 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2019-01-08 10:00:19,481 WARN o.a.j.s.SaveService: Bad _version - expected 3.2, found 5.0.
-2019-01-08 10:00:19,481 INFO o.a.j.s.SaveService: Loading file: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\testFiles\test.jmx
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-01-08 10:00:19,512 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-01-08 10:00:19,528 INFO o.a.j.JMeter: Creating summariser <summary>
-2019-01-08 10:00:19,540 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2019-01-08 10:00:19,540 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\results\test.csv
-2019-01-08 10:00:19,540 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin\reportgenerator.properties
-2019-01-08 10:00:19,540 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2019-01-08 10:00:19,540 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2019-01-08 10:00:19,555 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-01-08 10:00:19,555 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-01-08 10:00:19,555 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-01-08 10:00:19,555 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-01-08 10:00:19,555 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [change_case_string]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [change_case_mode]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_string]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_format_old]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_format_new]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [algorithm_string]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sha_string]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [salt_string]
-2019-01-08 10:00:19,602 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [upper_case]
-2019-01-08 10:00:19,868 INFO o.a.j.JMeter: 正在运行的测试 (1546912819868)
-2019-01-08 10:00:19,930 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : threadgroup
-2019-01-08 10:00:19,930 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group threadgroup.
-2019-01-08 10:00:19,930 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-01-08 10:00:19,930 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 perThread=200.0 delayedStart=false
-2019-01-08 10:00:19,930 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-1
-2019-01-08 10:00:19,946 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-01-08 10:00:19,946 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-01-08 10:00:19,946 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-M58SEUS
-2019-01-08 10:00:19,946 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2019-01-08 10:00:19,961 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-01-08 10:00:19,961 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-01-08 10:00:19,961 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-01-08 10:00:19,961 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-01-08 10:00:20,138 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-2
-2019-01-08 10:00:20,341 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-3
-2019-01-08 10:00:20,546 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-4
-2019-01-08 10:00:20,733 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-5
-2019-01-08 10:00:20,936 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-6
-2019-01-08 10:00:21,130 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-7
-2019-01-08 10:00:21,331 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-8
-2019-01-08 10:00:21,417 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-1
-2019-01-08 10:00:21,417 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-1
-2019-01-08 10:00:21,468 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-2
-2019-01-08 10:00:21,468 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-2
-2019-01-08 10:00:21,531 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-9
-2019-01-08 10:00:21,642 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-3
-2019-01-08 10:00:21,642 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-3
-2019-01-08 10:00:21,731 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-10
-2019-01-08 10:00:21,931 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-11
-2019-01-08 10:00:22,008 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-4
-2019-01-08 10:00:22,008 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-4
-2019-01-08 10:00:22,049 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-5
-2019-01-08 10:00:22,050 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-5
-2019-01-08 10:00:22,131 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-12
-2019-01-08 10:00:22,265 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-6
-2019-01-08 10:00:22,266 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-6
-2019-01-08 10:00:22,330 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-13
-2019-01-08 10:00:22,531 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-14
-2019-01-08 10:00:22,567 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-7
-2019-01-08 10:00:22,568 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-7
-2019-01-08 10:00:22,730 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-15
-2019-01-08 10:00:22,756 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-8
-2019-01-08 10:00:22,756 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-8
-2019-01-08 10:00:22,931 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-16
-2019-01-08 10:00:22,973 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-9
-2019-01-08 10:00:22,974 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-9
-2019-01-08 10:00:23,146 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-17
-2019-01-08 10:00:23,159 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-10
-2019-01-08 10:00:23,159 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-10
-2019-01-08 10:00:23,307 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-11
-2019-01-08 10:00:23,307 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-11
-2019-01-08 10:00:23,347 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-18
-2019-01-08 10:00:23,469 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-12
-2019-01-08 10:00:23,469 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-12
-2019-01-08 10:00:23,548 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-19
-2019-01-08 10:00:23,746 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-20
-2019-01-08 10:00:23,819 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-13
-2019-01-08 10:00:23,819 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-13
-2019-01-08 10:00:23,879 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-14
-2019-01-08 10:00:23,879 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-14
-2019-01-08 10:00:23,947 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-21
-2019-01-08 10:00:24,142 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-15
-2019-01-08 10:00:24,142 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-15
-2019-01-08 10:00:24,147 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-22
-2019-01-08 10:00:24,348 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-23
-2019-01-08 10:00:24,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-24
-2019-01-08 10:00:24,747 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-25
-2019-01-08 10:00:24,814 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-16
-2019-01-08 10:00:24,814 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-16
-2019-01-08 10:00:24,947 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-26
-2019-01-08 10:00:24,947 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-17
-2019-01-08 10:00:24,947 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-17
-2019-01-08 10:00:25,033 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-18
-2019-01-08 10:00:25,034 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-18
-2019-01-08 10:00:25,147 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-27
-2019-01-08 10:00:25,346 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-28
-2019-01-08 10:00:25,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-29
-2019-01-08 10:00:25,660 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-19
-2019-01-08 10:00:25,660 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-19
-2019-01-08 10:00:25,747 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-30
-2019-01-08 10:00:25,948 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-31
-2019-01-08 10:00:26,042 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-20
-2019-01-08 10:00:26,042 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-20
-2019-01-08 10:00:26,147 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-32
-2019-01-08 10:00:26,223 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-21
-2019-01-08 10:00:26,223 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-21
-2019-01-08 10:00:26,346 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-33
-2019-01-08 10:00:26,382 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-22
-2019-01-08 10:00:26,382 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-22
-2019-01-08 10:00:26,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-34
-2019-01-08 10:00:26,746 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-35
-2019-01-08 10:00:26,947 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-36
-2019-01-08 10:00:27,146 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-37
-2019-01-08 10:00:27,171 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-25
-2019-01-08 10:00:27,171 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-25
-2019-01-08 10:00:27,336 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-26
-2019-01-08 10:00:27,336 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-26
-2019-01-08 10:00:27,346 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-38
-2019-01-08 10:00:27,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-39
-2019-01-08 10:00:27,746 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-40
-2019-01-08 10:00:27,865 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-27
-2019-01-08 10:00:27,865 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-27
-2019-01-08 10:00:27,946 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-41
-2019-01-08 10:00:27,977 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-29
-2019-01-08 10:00:27,977 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-29
-2019-01-08 10:00:27,993 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-30
-2019-01-08 10:00:27,993 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-30
-2019-01-08 10:00:28,128 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-31
-2019-01-08 10:00:28,128 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-31
-2019-01-08 10:00:28,146 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-42
-2019-01-08 10:00:28,347 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-43
-2019-01-08 10:00:28,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-44
-2019-01-08 10:00:28,665 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-32
-2019-01-08 10:00:28,665 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-32
-2019-01-08 10:00:28,755 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-45
-2019-01-08 10:00:28,842 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-33
-2019-01-08 10:00:28,842 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-33
-2019-01-08 10:00:28,938 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-35
-2019-01-08 10:00:28,938 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-35
-2019-01-08 10:00:28,947 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-46
-2019-01-08 10:00:29,062 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-36
-2019-01-08 10:00:29,062 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-36
-2019-01-08 10:00:29,147 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-47
-2019-01-08 10:00:29,214 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-37
-2019-01-08 10:00:29,214 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-37
-2019-01-08 10:00:29,347 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-48
-2019-01-08 10:00:29,547 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-49
-2019-01-08 10:00:29,747 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-50
-2019-01-08 10:00:29,950 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-40
-2019-01-08 10:00:29,950 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-40
-2019-01-08 10:00:30,003 INFO o.a.j.r.Summariser: summary +   3844 in 00:00:10 =  379.4/s Avg:    18 Min:    11 Max:   343 Err:     0 (0.00%) Active: 16 Started: 50 Finished: 34
-2019-01-08 10:00:30,096 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-41
-2019-01-08 10:00:30,096 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-41
-2019-01-08 10:00:30,330 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-44
-2019-01-08 10:00:30,330 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-44
-2019-01-08 10:00:30,330 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-42
-2019-01-08 10:00:30,330 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-42
-2019-01-08 10:00:30,393 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-45
-2019-01-08 10:00:30,393 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-45
-2019-01-08 10:00:30,565 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-46
-2019-01-08 10:00:30,565 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-46
-2019-01-08 10:00:30,815 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-47
-2019-01-08 10:00:30,815 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-47
-2019-01-08 10:00:31,112 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-48
-2019-01-08 10:00:31,112 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-48
-2019-01-08 10:00:31,143 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-50
-2019-01-08 10:00:31,143 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-50
-2019-01-08 10:00:31,628 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-38
-2019-01-08 10:00:31,628 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-38
-2019-01-08 10:00:31,862 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-39
-2019-01-08 10:00:31,862 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-39
-2019-01-08 10:00:32,551 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-43
-2019-01-08 10:00:32,551 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-43
-2019-01-08 10:00:33,821 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-49
-2019-01-08 10:00:33,821 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-49
-2019-01-08 10:00:34,602 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-23
-2019-01-08 10:00:34,602 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-23
-2019-01-08 10:00:34,774 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-24
-2019-01-08 10:00:34,774 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-24
-2019-01-08 10:00:35,617 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-28
-2019-01-08 10:00:35,617 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-28
-2019-01-08 10:00:36,820 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-34
-2019-01-08 10:00:36,820 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-34
-2019-01-08 10:00:36,820 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-01-08 10:00:36,835 INFO o.a.j.r.Summariser: summary +   1156 in 00:00:07 =  169.1/s Avg:    54 Min:    10 Max:  9026 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
-2019-01-08 10:00:36,845 INFO o.a.j.r.Summariser: summary =   5000 in 00:00:17 =  294.7/s Avg:    26 Min:    10 Max:  9026 Err:     0 (0.00%)
-2019-01-08 10:00:36,845 INFO o.a.j.JMeter: Generating Dashboard
-2019-01-08 10:00:36,845 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2019-01-08 10:00:36,862 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2019-01-08 10:00:37,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2019-01-08 10:00:37,304 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2019-01-08 10:00:37,304 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2019-01-08 10:00:37,304 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2019-01-08 10:00:37,304 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 35000 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 70000 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 15000 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 5000 samples
-2019-01-08 10:00:37,336 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 5000 samples produced in 443ms on channel 0
-2019-01-08 10:00:37,336 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2019-01-08 10:00:37,336 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190108_100014
-2019-01-08 10:00:37,398 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190108_100014, creating folder structure
-2019-01-08 10:00:44,074 INFO o.a.j.JMeter: Dashboard generated
+2019-01-09 09:12:52,472 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2019-01-09 09:12:52,483 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2019-01-09 09:12:52,486 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2019-01-09 09:12:52,486 INFO o.a.j.JMeter: Version 3.3 r1808647
+2019-01-09 09:12:52,486 INFO o.a.j.JMeter: java.version=1.8.0_171
+2019-01-09 09:12:52,486 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: os.name=Windows 10
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: os.arch=amd64
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: os.version=10.0
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: file.encoding=GBK
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: Max memory     =514850816
+2019-01-09 09:12:52,487 INFO o.a.j.JMeter: Available Processors =4
+2019-01-09 09:12:52,492 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2019-01-09 09:12:52,492 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2019-01-09 09:12:52,492 INFO o.a.j.JMeter: JMeterHome=C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter
+2019-01-09 09:12:52,492 INFO o.a.j.JMeter: user.dir  =C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin
+2019-01-09 09:12:52,492 INFO o.a.j.JMeter: PWD       =C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin
+2019-01-09 09:12:57,024 INFO o.a.j.JMeter: IP: 192.168.205.2 Name: DESKTOP-M58SEUS FullName: DESKTOP-M58SEUS
+2019-01-09 09:12:57,028 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190109_091250'
+2019-01-09 09:12:57,033 INFO o.a.j.s.FileServer: Default base='C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin'
+2019-01-09 09:12:57,033 INFO o.a.j.s.FileServer: Set new base='C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\testFiles'
+2019-01-09 09:12:57,179 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2019-01-09 09:12:57,189 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2019-01-09 09:12:57,193 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2019-01-09 09:12:57,197 WARN o.a.j.s.SaveService: Bad _version - expected 3.2, found 5.0.
+2019-01-09 09:12:57,197 INFO o.a.j.s.SaveService: Loading file: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\testFiles\test.jmx
+2019-01-09 09:12:57,227 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2019-01-09 09:12:57,230 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-01-09 09:12:57,238 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-01-09 09:12:57,251 INFO o.a.j.JMeter: Creating summariser <summary>
+2019-01-09 09:12:57,260 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2019-01-09 09:12:57,260 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\results\20190109-test.csv
+2019-01-09 09:12:57,260 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\bin\reportgenerator.properties
+2019-01-09 09:12:57,260 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2019-01-09 09:12:57,264 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2019-01-09 09:12:57,266 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2019-01-09 09:12:57,266 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2019-01-09 09:12:57,267 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,271 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2019-01-09 09:12:57,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2019-01-09 09:12:57,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2019-01-09 09:12:57,272 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2019-01-09 09:12:57,279 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2019-01-09 09:12:57,279 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-09 09:12:57,279 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2019-01-09 09:12:57,283 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-01-09 09:12:57,284 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-01-09 09:12:57,323 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [change_case_string]
+2019-01-09 09:12:57,323 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [change_case_mode]
+2019-01-09 09:12:57,323 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_string]
+2019-01-09 09:12:57,323 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_format_old]
+2019-01-09 09:12:57,324 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [date_format_new]
+2019-01-09 09:12:57,324 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [algorithm_string]
+2019-01-09 09:12:57,324 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [sha_string]
+2019-01-09 09:12:57,324 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [salt_string]
+2019-01-09 09:12:57,324 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [upper_case]
+2019-01-09 09:12:57,601 INFO o.a.j.JMeter: 正在运行的测试 (1546996377601)
+2019-01-09 09:12:57,650 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : threadgroup
+2019-01-09 09:12:57,650 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group threadgroup.
+2019-01-09 09:12:57,650 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2019-01-09 09:12:57,650 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 perThread=200.0 delayedStart=false
+2019-01-09 09:12:57,656 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-1
+2019-01-09 09:12:57,682 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2019-01-09 09:12:57,683 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2019-01-09 09:12:57,689 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-M58SEUS
+2019-01-09 09:12:57,693 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2019-01-09 09:12:57,699 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-01-09 09:12:57,699 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-01-09 09:12:57,699 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-01-09 09:12:57,699 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2019-01-09 09:12:57,856 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-2
+2019-01-09 09:12:58,056 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-3
+2019-01-09 09:12:58,256 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-4
+2019-01-09 09:12:58,456 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-5
+2019-01-09 09:12:58,656 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-6
+2019-01-09 09:12:58,858 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-7
+2019-01-09 09:12:59,072 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-8
+2019-01-09 09:12:59,225 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-2
+2019-01-09 09:12:59,225 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-2
+2019-01-09 09:12:59,243 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-1
+2019-01-09 09:12:59,243 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-1
+2019-01-09 09:12:59,271 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-9
+2019-01-09 09:12:59,472 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-10
+2019-01-09 09:12:59,547 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-3
+2019-01-09 09:12:59,547 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-3
+2019-01-09 09:12:59,658 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-4
+2019-01-09 09:12:59,658 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-4
+2019-01-09 09:12:59,672 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-11
+2019-01-09 09:12:59,873 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-12
+2019-01-09 09:13:00,002 INFO o.a.j.r.Summariser: summary +    843 in 00:00:02 =  351.2/s Avg:    14 Min:    11 Max:    67 Err:     0 (0.00%) Active: 8 Started: 12 Finished: 4
+2019-01-09 09:13:00,017 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-5
+2019-01-09 09:13:00,017 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-5
+2019-01-09 09:13:00,072 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-13
+2019-01-09 09:13:00,171 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-6
+2019-01-09 09:13:00,171 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-6
+2019-01-09 09:13:00,272 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-14
+2019-01-09 09:13:00,305 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-7
+2019-01-09 09:13:00,305 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-7
+2019-01-09 09:13:00,476 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-15
+2019-01-09 09:13:00,560 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-8
+2019-01-09 09:13:00,560 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-8
+2019-01-09 09:13:00,676 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-16
+2019-01-09 09:13:00,681 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-9
+2019-01-09 09:13:00,681 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-9
+2019-01-09 09:13:00,875 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-17
+2019-01-09 09:13:00,966 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-10
+2019-01-09 09:13:00,966 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-10
+2019-01-09 09:13:01,075 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-18
+2019-01-09 09:13:01,227 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-11
+2019-01-09 09:13:01,227 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-11
+2019-01-09 09:13:01,276 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-19
+2019-01-09 09:13:01,370 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-12
+2019-01-09 09:13:01,370 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-12
+2019-01-09 09:13:01,477 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-20
+2019-01-09 09:13:01,677 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-21
+2019-01-09 09:13:01,681 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-13
+2019-01-09 09:13:01,681 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-13
+2019-01-09 09:13:01,878 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-22
+2019-01-09 09:13:01,891 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-14
+2019-01-09 09:13:01,891 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-14
+2019-01-09 09:13:02,043 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-15
+2019-01-09 09:13:02,043 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-15
+2019-01-09 09:13:02,079 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-23
+2019-01-09 09:13:02,144 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-16
+2019-01-09 09:13:02,145 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-16
+2019-01-09 09:13:02,280 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-24
+2019-01-09 09:13:02,354 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-17
+2019-01-09 09:13:02,355 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-17
+2019-01-09 09:13:02,481 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-25
+2019-01-09 09:13:02,641 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-18
+2019-01-09 09:13:02,641 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-18
+2019-01-09 09:13:02,681 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-26
+2019-01-09 09:13:02,828 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-19
+2019-01-09 09:13:02,828 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-19
+2019-01-09 09:13:02,880 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-27
+2019-01-09 09:13:02,965 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-20
+2019-01-09 09:13:02,965 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-20
+2019-01-09 09:13:03,059 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-21
+2019-01-09 09:13:03,059 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-21
+2019-01-09 09:13:03,081 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-28
+2019-01-09 09:13:03,281 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-29
+2019-01-09 09:13:03,345 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-22
+2019-01-09 09:13:03,345 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-22
+2019-01-09 09:13:03,482 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-30
+2019-01-09 09:13:03,606 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-23
+2019-01-09 09:13:03,606 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-23
+2019-01-09 09:13:03,682 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-31
+2019-01-09 09:13:03,847 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-24
+2019-01-09 09:13:03,847 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-24
+2019-01-09 09:13:03,883 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-32
+2019-01-09 09:13:04,039 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-25
+2019-01-09 09:13:04,039 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-25
+2019-01-09 09:13:04,082 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-33
+2019-01-09 09:13:04,253 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-26
+2019-01-09 09:13:04,253 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-26
+2019-01-09 09:13:04,283 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-34
+2019-01-09 09:13:04,423 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-27
+2019-01-09 09:13:04,424 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-27
+2019-01-09 09:13:04,482 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-35
+2019-01-09 09:13:04,541 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-28
+2019-01-09 09:13:04,541 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-28
+2019-01-09 09:13:04,682 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-36
+2019-01-09 09:13:04,738 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-29
+2019-01-09 09:13:04,738 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-29
+2019-01-09 09:13:04,883 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-37
+2019-01-09 09:13:04,939 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-30
+2019-01-09 09:13:04,939 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-30
+2019-01-09 09:13:05,082 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-38
+2019-01-09 09:13:05,216 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-31
+2019-01-09 09:13:05,216 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-31
+2019-01-09 09:13:05,283 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-39
+2019-01-09 09:13:05,483 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-40
+2019-01-09 09:13:05,506 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-32
+2019-01-09 09:13:05,506 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-32
+2019-01-09 09:13:05,629 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-34
+2019-01-09 09:13:05,630 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-34
+2019-01-09 09:13:05,639 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-33
+2019-01-09 09:13:05,639 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-33
+2019-01-09 09:13:05,682 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-41
+2019-01-09 09:13:05,883 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-42
+2019-01-09 09:13:05,902 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-35
+2019-01-09 09:13:05,902 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-35
+2019-01-09 09:13:06,082 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-43
+2019-01-09 09:13:06,156 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-36
+2019-01-09 09:13:06,156 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-36
+2019-01-09 09:13:06,214 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-37
+2019-01-09 09:13:06,215 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-37
+2019-01-09 09:13:06,283 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-44
+2019-01-09 09:13:06,482 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-45
+2019-01-09 09:13:06,580 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-38
+2019-01-09 09:13:06,580 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-38
+2019-01-09 09:13:06,638 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-39
+2019-01-09 09:13:06,638 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-39
+2019-01-09 09:13:06,682 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-46
+2019-01-09 09:13:06,883 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-47
+2019-01-09 09:13:06,891 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-40
+2019-01-09 09:13:06,891 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-40
+2019-01-09 09:13:07,005 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-41
+2019-01-09 09:13:07,006 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-41
+2019-01-09 09:13:07,083 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-48
+2019-01-09 09:13:07,287 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-49
+2019-01-09 09:13:07,344 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-42
+2019-01-09 09:13:07,344 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-42
+2019-01-09 09:13:07,484 INFO o.a.j.t.JMeterThread: Thread started: threadgroup 1-50
+2019-01-09 09:13:07,521 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-43
+2019-01-09 09:13:07,521 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-43
+2019-01-09 09:13:07,681 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-44
+2019-01-09 09:13:07,681 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-44
+2019-01-09 09:13:07,843 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-45
+2019-01-09 09:13:07,844 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-45
+2019-01-09 09:13:08,098 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-46
+2019-01-09 09:13:08,098 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-46
+2019-01-09 09:13:08,246 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-47
+2019-01-09 09:13:08,246 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-47
+2019-01-09 09:13:08,468 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-48
+2019-01-09 09:13:08,468 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-48
+2019-01-09 09:13:08,677 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-49
+2019-01-09 09:13:08,677 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-49
+2019-01-09 09:13:08,809 INFO o.a.j.t.JMeterThread: Thread is done: threadgroup 1-50
+2019-01-09 09:13:08,809 INFO o.a.j.t.JMeterThread: Thread finished: threadgroup 1-50
+2019-01-09 09:13:08,809 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2019-01-09 09:13:08,825 INFO o.a.j.r.Summariser: summary +   4157 in 00:00:09 =  471.2/s Avg:    14 Min:    10 Max:   160 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2019-01-09 09:13:08,825 INFO o.a.j.r.Summariser: summary =   5000 in 00:00:11 =  445.5/s Avg:    14 Min:    10 Max:   160 Err:     0 (0.00%)
+2019-01-09 09:13:08,827 INFO o.a.j.JMeter: Generating Dashboard
+2019-01-09 09:13:08,827 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2019-01-09 09:13:08,876 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2019-01-09 09:13:09,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2019-01-09 09:13:09,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2019-01-09 09:13:09,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2019-01-09 09:13:09,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2019-01-09 09:13:09,238 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2019-01-09 09:13:09,239 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2019-01-09 09:13:09,239 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2019-01-09 09:13:09,239 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2019-01-09 09:13:09,293 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2019-01-09 09:13:09,294 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2019-01-09 09:13:09,294 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2019-01-09 09:13:09,294 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2019-01-09 09:13:09,320 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2019-01-09 09:13:09,321 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 35000 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2019-01-09 09:13:09,322 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 70000 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 15000 samples
+2019-01-09 09:13:09,324 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 5000 samples
+2019-01-09 09:13:09,325 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 5000 samples produced in 427ms on channel 0
+2019-01-09 09:13:09,325 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2019-01-09 09:13:09,327 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190109_091250
+2019-01-09 09:13:09,378 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Workspaces\MyEclipse 2017 CI\test1\target\jmeter\reports\test_20190109_091250, creating folder structure
+2019-01-09 09:13:11,378 INFO o.a.j.JMeter: Dashboard generated

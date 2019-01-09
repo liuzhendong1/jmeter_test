@@ -11,8 +11,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding> 
         <jmeter.result.jtl.dir>${project.build.directory}\jmeter\results</jmeter.result.jtl.dir>
-       <!--  <jmeter.result.html.dir>${project.build.directory}\jmeter\html</jmeter.result.html.dir>
-        <jmeter.result.html.dir1>${project.build.directory}\jmeter\html1</jmeter.result.html.dir1> -->
         <ReportName>TestReport</ReportName>                                  
   </properties>
   
@@ -38,16 +36,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
               <plugin>
                <groupId>com.lazerycode.jmeter</groupId>
                <artifactId>jmeter-maven-plugin</artifactId>
-               <version>2.7.0</version>
-                <configuration>
-                  <!--    设置jmeter生成结果文件格式 -->
-                    <resultsFileFormat>xml</resultsFileFormat>
-                <!--     设置忽略失败是否停止运行 -->
-                    <ignoreResultFailures>true</ignoreResultFailures>
-                 <!--    设置结果是否有时间戳 -->
-                    <testResultsTimestamp>false</testResultsTimestamp>
-                    <resultsDirectory>${jmeter.result.jtl.dir}</resultsDirectory>
-                </configuration>
+               <version>2.7.0</version>               
                <executions>                                                                                                  
                    <execution>
                        <id>jmeter-tests</id>
@@ -57,6 +46,15 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                        </goals>
                     </execution>
                 </executions>
+                <configuration>
+                  <!--    设置jmeter生成结果文件格式 -->
+                    <resultsFileFormat>xml</resultsFileFormat>
+                <!--     设置忽略失败是否停止运行 -->
+                    <ignoreResultFailures>true</ignoreResultFailures>
+                 <!--    设置结果是否有时间戳 -->
+                    <testResultsTimestamp>false</testResultsTimestamp>                 
+                    <resultsDirectory>${jmeter.result.jtl.dir}</resultsDirectory>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -66,30 +64,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                     <execution>
                         <phase>verify</phase>                   
                     </execution>
-                </executions> 
-            <!-- <configuration>
-             <transformationSets>                
-                        <transformationSet><dir>${jmeter.result.jtl.dir}</dir>                                                    
-                            <stylesheet>src\test\resources\jmeter-results-detail-report_21.xsl</stylesheet>
-                            <outputDir>${jmeter.result.html.dir}</outputDir>
-                            <fileMappers>
-                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
-                                    <targetExtension>html</targetExtension>
-                                </fileMapper>
-                            </fileMappers>
-                        </transformationSet>
-                        <transformationSet><dir>${jmeter.result.jtl.dir}</dir>
-                            <stylesheet>src\test\resources\jmeter-results-report_21.xsl</stylesheet>
-                            <outputDir>${jmeter.result.html.dir1}</outputDir>
-                            <fileMappers>
-                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
-                                    <targetExtension>html</targetExtension>
-                                </fileMapper>
-                            </fileMappers>
-                        </transformationSet> 
-                    </transformationSets>
-                </configuration> -->
-                <!-- using XSLT 2.0 -->
+                </executions>    
                  <dependencies>
                    <dependency>
                    <groupId>net.sf.saxon</groupId>
